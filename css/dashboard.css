@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left{
+    /*border: 1px solid brown;*/
+    height:655px;
+    float: left;
+    width:20%;
+    background-color: rgba(90, 27, 149, 0.87);
+}
+.right{
+    /*border: 1px solid red;*/
+    height:653px;
+    width: 79.5%;
+    float: right;
+}
+
+.left .options button{
+    color: white;
+    /*color: #c4c4c5;*/
+    background: none;
+    width:100%;
+    height:50px;
+    font-size: 15px;
+    border:none;
+}
+
+.left .options button:hover{
+    background: rgba(93, 28, 153, 0.87);
+    cursor:pointer;
+}
+
+.leftText{
+    float: left;
+    height:160px;
+    width: 100%;
+    background-image: url("../img/dashLeftBg.jpg");
+    background-size: 300px;
+}
+.leftText img{
+    margin:0px 0 0 0px;
+    width:30%;
+    
+}
+.leftText p{
+    
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    margin: 50px 0 0 130px;
+}
+.options{
+    margin: 200px 0 0 0;
+}
+
+.add, .search, .update ,.delete ,.logout{
+    border-radius: 60px;
+    height: 250px;
+    width:250px;
+    float: left;
+    margin: 10px 10px 10px 40px;
+    background-color: rgba(90, 27, 149, 0.87);
+}
+
+.add,.delete{
+    margin-left: 90px;
+}
+.add, .search ,.update{
+    margin-top: 70px;
+}
+.add{
+    background-image: url("../img/add.jpg");
+    background-size: 300px;
+}
+.update
+{
+    background-image: url("../img/update.jpg");
+    background-size: 300px;
+}
+.search
+{
+    background-image: url("../img/search.jpg");
+    background-size: 290px;
+}
+.delete
+{
+    background-image: url("../img/delete.jpg");
+    background-size: 370px;
+}
+.logout
+{
+    background-image: url("../img/logout.jpg");
+    background-size: 35 0px;
+}
+.add:hover, .search:hover, .update:hover ,.delete:hover ,.logout:hover{
+ border-radius:90px ;   
+}
+
+.add p, .search p, .update p,.delete p,.logout p{
+    color: white;
+    margin:200px 0 0 90px;
+    font-family: monospace;
+    font-size: 18px;
+    
+}
+table,th,td{
+    border:1px solid black;
+}

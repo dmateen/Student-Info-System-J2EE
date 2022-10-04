@@ -1,0 +1,32 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+input[type=submit] 
+{
+    font-size: 13px;
+    font-weight: bold;
+    color:white;
+    background-color: blueviolet;
+    text-align: center;
+    border: none;
+    height: 35px;
+    width: 54%;
+    margin: 10px 0 0 0;
+}
+input[type=submit]:hover 
+{
+    cursor: pointer;
+    background-color: rgb(121, 40, 197);
+    border-radius: 20px;
+    font-weight:bold;
+}
+
+input[type=text],input[type=password],input[type=number]
+{
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    width: 50%;
+    height: 25px;
+    padding: 5px ;
+    
+}
